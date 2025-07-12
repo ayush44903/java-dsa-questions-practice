@@ -1,4 +1,4 @@
-package assignment2;
+package loops;
 
 public class toUsd {
     

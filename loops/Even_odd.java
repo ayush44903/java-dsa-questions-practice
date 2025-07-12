@@ -1,4 +1,4 @@
-package assignment2;
+package loops;
 
 import java.util.Scanner;
 
