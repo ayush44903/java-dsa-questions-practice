@@ -1,4 +1,3 @@
-package assignment3;
 import java.util.Scanner;
 
 public class areas {
@@ -10,6 +9,7 @@ public class areas {
         double a = 3.14*n*n;
 
         System.out.println("Area of circle: "+a);
+        input.close();
     }
     
 }
