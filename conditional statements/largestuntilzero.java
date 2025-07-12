@@ -17,6 +17,7 @@ public class largestuntilzero {
             }
         }
         System.out.println("The largest no is: "+largest);
+        input.close();
     }
     
 }
