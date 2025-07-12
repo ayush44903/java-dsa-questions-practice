@@ -11,6 +11,6 @@ public class subtract {
         int subs = product-sum;
 
         System.out.println("final ans: "+subs);
-        
+        input.close();
     }
 }
