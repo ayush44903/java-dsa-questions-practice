@@ -20,5 +20,6 @@ public class largestusingfunction {
         int third = input.nextInt();
         int max = largest(first, second, third);
         System.out.println("The largest number among these is: "+max);
+        input.close();
     }
 }
