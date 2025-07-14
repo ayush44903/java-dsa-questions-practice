@@ -12,6 +12,7 @@ public class sumuntilzero {
             sum=sum +num;           
         }
         System.out.println("The Sum of numbers is: "+sum);
+        input.close();
         
     }
 }
