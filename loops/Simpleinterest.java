@@ -35,6 +35,8 @@ public class Simpleinterest
 
         int SI = (P*R*T)/100;
         System.out.println("The total SI "+SI);
+      sn.close();  
     }
+    
 }
 

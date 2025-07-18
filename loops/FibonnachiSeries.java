@@ -28,5 +28,8 @@ public class FibonnachiSeries {
             System.out.print(fibonacci(i) + " ");
         }
 
+        input.close();
+
     }
+    
 }

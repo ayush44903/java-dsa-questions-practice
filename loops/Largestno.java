@@ -14,6 +14,7 @@ public class Largestno {
         else{
             System.out.println("The greatest no is: "+b);
         }
+        input.close();
         
     }
 }
