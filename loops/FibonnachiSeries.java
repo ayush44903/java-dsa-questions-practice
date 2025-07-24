@@ -20,13 +20,16 @@ public class FibonnachiSeries {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
-        // int a=0;
-        // while(a<){
-        //     return fibonacci(a);
-        // }
-        for(int i = 1; i <= a; i++) {
-            System.out.print(fibonacci(i) + " ");
+
+        int i = 1;
+        while(i<=a){
+            System.out.println(fibonacci(i) + " ");
+            i++;
         }
+
+        // for(int i = 1; i <= a; i++) {
+        //     System.out.print(fibonacci(i) + " ");
+        // }
 
         input.close();
 

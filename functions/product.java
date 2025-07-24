@@ -17,6 +17,7 @@ public class product {
        
        int product = product(num1, num2);
        System.out.println("The product of numbers is: "+product);
+       input.close();
     }
     
 }
