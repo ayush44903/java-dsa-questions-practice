@@ -2,7 +2,7 @@ package functions;
 import java.util.Scanner;
 
 public class evenodd {
-    public static String evenodd(int a){
+    public static String eo(int a){
         if(a%2==0){
             return "Even";
         } else {
@@ -15,7 +15,7 @@ public class evenodd {
         int num = input.nextInt();
         
 
-        System.out.println("The Number " + num + " is: " + evenodd(num));
+        System.out.println("The Number " + num + " is: " + eo(num));
         input.close();
     
     }

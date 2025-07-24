@@ -3,7 +3,7 @@ package functions;
 import java.util.Scanner;
 
 public class product {
-    public static int product(int a, int b){
+    public static int pdt(int a, int b){
         return a*b;
 
     }
@@ -15,7 +15,7 @@ public class product {
        System.out.print("Enter Second digit: ");
        int num2= input.nextInt();
        
-       int product = product(num1, num2);
+       int product = pdt(num1, num2);
        System.out.println("The product of numbers is: "+product);
        input.close();
     }
