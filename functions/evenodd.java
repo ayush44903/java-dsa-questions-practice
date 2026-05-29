@@ -1,4 +1,3 @@
-package functions;
 import java.util.Scanner;
 
 public class evenodd {
@@ -17,6 +16,7 @@ public class evenodd {
 
         System.out.println("The Number " + num + " is: " + eo(num));
         input.close();
+    
     
     }
 }

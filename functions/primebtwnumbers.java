@@ -1,4 +1,3 @@
-package functions;
 
 import java.util.Scanner;
 
@@ -11,7 +10,7 @@ public class primebtwnumbers {
             return "Prime";
         }
         for(int num=2;num<=Math.sqrt(n);num++){
-            if(n%num==0){
+         if(n%num==0){
                 return "Not Prime";
             }
         }
